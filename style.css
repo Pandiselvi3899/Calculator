@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    padding: 13px 20px;
+    margin: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+body{
+    background-color: #f2faf0;
+
+}
+.hidden{
+    visibility: hidden;
+}
+.pad{
+    display: inline-block;
+    min-width: 300px;
+    max-width: 310px;
+    background-color: rgb(221, 220, 220);
+    padding: 10px;
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+input,span{
+    display: inline-block; 
+    text-align: right; 
+    width: 95%;
+    color: rgb(111, 105, 105);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+input{
+    background-color:   rgb(221, 220, 220);
+    border: none;
+    color: rgb(159, 157, 157);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+span{
+    font-size: 1.2rem;
+    height: 38.5px;
+    overflow: hidden;
+}
+.case1{
+    padding: 4.6% 5.6%
+}
+.case2{
+    padding: 4% 3.5%
+}
+.case3{
+    padding: 4% 5%
+}
